@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
-const version = ref('4.6.3')
 </script>
 
 <template>
@@ -9,8 +6,8 @@ const version = ref('4.6.3')
     <h1>About Page</h1>
     <p>This is an about page demonstrating Vue Router integration.</p>
     <div class="info">
-      <p>Vue Router version: {{ version }}</p>
       <p>This page was loaded using lazy loading with route-based code splitting.</p>
+      <p>Navigate back to the Home page using the navigation links above.</p>
     </div>
   </div>
 </template>
